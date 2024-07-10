@@ -3,9 +3,9 @@ server:
 
 spring:
   datasource:
-    url:
-    username:
-    password:
+    url: jdbc:mysql://localhost:3307/sports-center
+    username: root
+    password: password
   application:
     name: SportsCenter
   jobs:
